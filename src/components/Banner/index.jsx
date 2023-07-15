@@ -1,5 +1,6 @@
 import { Container, Typography } from "@mui/material";
 import { bannerStyle } from "../styles";
+import Carousel from "./Carousel";
 
 const AppBanner = () => {
   const classes = bannerStyle();
@@ -27,6 +28,7 @@ const AppBanner = () => {
             get all the info regarding your favourite crypto currency
           </Typography>
         </div>
+        <Carousel />
       </Container>
     </div>
   );
